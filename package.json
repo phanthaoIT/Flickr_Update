@@ -1,0 +1,29 @@
+{
+  "name": "flickr",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://phanthaoIT.github.io/Flickr_Update",
+  "dependencies": {
+    "@material-ui/core": "^3.1.2",
+    "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
+    "justifiedGallery": "^3.7.0",
+    "material-ui": "^0.20.2",
+    "react": "^16.5.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.5.2",
+    "react-grid-gallery": "^0.5.3",
+    "react-infinite-scroll-component": "^4.2.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
