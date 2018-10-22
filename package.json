@@ -2,7 +2,7 @@
   "name": "flickr",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://phanthaoIT.github.io/Flickr_Update",
+  "homepage": "https://phanthaoIT.github.io/Flickr_Update/",
   "dependencies": {
     "@material-ui/core": "^3.1.2",
     "axios": "^0.18.0",
