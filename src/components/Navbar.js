@@ -30,7 +30,7 @@ export default class MyNavbar extends React.Component {
         <Link to="/Flickr_Update">Flickr</Link>
       </Navbar.Brand>
       <Navbar.Form pullRight>
-        <form onSubmit={this.handleSubmit} action='/Flickr_Update/search'>
+        <form onSubmit={this.handleSubmit} action='/Flickr_Update/search/'>
             <input type="text" placeholder="Photos"  value = {this.state.search} onChange={this.handleChange} name = "tag" style={{height:20}}/>
         </form>
       </Navbar.Form>
