@@ -47,7 +47,7 @@ class Photo extends Component {
       <p>Tag:</p>
       {this.state.tag.map(ta=>{
         return (
-        <Link to={`/Flickr_Update/search/?tag=${ta._content}`} key={ta.id} className="tag">{ta._content}</Link>
+        <Link to={`/Flickr_Update/search?tag=${ta._content}`} key={ta.id} className="tag">{ta._content}</Link>
       )})}
       </div>
     </div>
