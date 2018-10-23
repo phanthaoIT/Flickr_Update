@@ -11,7 +11,7 @@ export default class App extends React.Component {
             <div>
                 <MyNavbar/>
                 <Route exact path = "/Flickr_Update/" component = {Explore} />
-                <Route exact path = "/Flickr_Update/search" component = {Search} />
+                <Route exact path = "/Flickr_Update/search*" component = {Search} />
                 <Route exact path = "/Flickr_Update/photo/:id" component = {Photo}  />
             </div>
         </Router>
